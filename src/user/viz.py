@@ -17,7 +17,7 @@ def topic_word_by_class(
     index_to_word_fn,
     color_key,
     n_neighbors=150,
-        random_state=42,
+    random_state=42,
     background="white",
 ):
     unique_classes = np.unique(class_labels)
